@@ -35,8 +35,9 @@ export default function Weather() {
         type="search"
         placeholder="Enter a city..."
         onChange={updateCity}
-      />
+        />
       <button type="Submit">Search</button>
+      <h4><a href="http://github.com/prsmahajan/react-app-homework">Link to GitHub</a></h4>
     </form>
   );
 
